@@ -57,3 +57,6 @@
 ## Diagrams
 ### Use Cases
 ![Use Cases](/out/docs/use-cases/use-cases.png)
+
+### Model
+![Use Cases](/out/docs/model/model.png)
