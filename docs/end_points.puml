@@ -33,15 +33,15 @@
         *** /{id}/areas
             ****[#LightGreen] GET
                 *****[#LightBlue] ADMIN
+        *** /{id}/availability-days?
+            ****[#LightGreen] GET
+                *****[#LightBlue] ADMIN, OPERATOR
+        *** /{id}/availability-times?
+            ****[#LightGreen] GET
+                *****[#LightBlue] ADMIN, OPERATOR
         *** /{id}/workdays
             ****[#LightGreen] GET, POST, DELETE/{id}, PUT/{id} 
                 *****[#LightBlue] ADMIN
-        *** /{id}/availabilite-days?
-            ****[#LightGreen] GET
-                *****[#LightBlue] ADMIN, OPERATOR
-        *** /{id}/availabilite-times?
-            ****[#LightGreen] GET
-                *****[#LightBlue] ADMIN, OPERATOR
     ** /users
         ***[#LightGreen] GET, GET/{id}, POST, DELETE/{id}, PUT/{id} 
             ****[#LightBlue] ADMIN
