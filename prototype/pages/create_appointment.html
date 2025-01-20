@@ -17,7 +17,9 @@
         <div class="row">
             <div class="display-4">Fazer Agendamento</div>
             <div class="col-6 board rounded shadow-sm p-4">
-                <div id="form-Appointment"></div>
+                <div id="form-appointment">
+
+                </div>
             </div>
             <div class="col-6 board rounded shadow-sm p-4">
                 <div id="calendar"></div>
@@ -89,10 +91,10 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            $("#navbar").load("../components/navbar/navbar.html");
-            $("#form-Appointment").load("../components/formAppointment/formAppointment.html");
-            $("#calendar").load("../components/calendar/calendar.html");
-            $("#time").load("../components/time/time.html");
+            $("#navbar").load("/prototype/components/navbar/navbar.html");
+            $("#form-appointment").load("/prototype/components/form_appointment/form_appointment.html");
+            $("#calendar").load("/prototype/components/calendar/calendar.html");
+            $("#time").load("/prototype/components/time/time.html");
         });
     </script>
 </body>
