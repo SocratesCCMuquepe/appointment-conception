@@ -1,0 +1,79 @@
+<div class="table-client">
+    <div class="row">
+        <div class="table">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <th scope="col fw-bold">Nome</th>
+                        <th scope="col fw-bold">Telefone</th>
+                        <th scope="col fw-bold">Profissional</th>
+                        <th scope="col fw-bold">Área</th>
+                        <th scope="col fw-bold">Data</th>
+                        <th scope="col fw-bold">Horário</th>
+                        <th scope="col fw-bold">Atentimento</th>
+                        <th scope="col fw-bold">Estado</th>
+                        <th scope="col fw-bold">Ver mais</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" class="form-control" placeholder="Filtrar pelo nome">
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Maria da Silva</td>
+                        <td>(+244) 921 664 281</td>
+                        <td>Maria Pereira</td>
+                        <td>Estética</td>
+                        <td>25/09/2021</td>
+                        <td>14:00</td>
+                        <td>Particular</td>
+                        <td>PRESENTE</td>
+                        <td>
+                            <button class="btn btn-primary shadow-sm" type="button" data-bs-toggle="modal"
+                            data-bs-target="#confirmModal">Ver mais</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria da Silva</td>
+                        <td>(+244) 921 664 281</td>
+                        <td>Maria Pereira</td>
+                        <td>Estética</td>
+                        <td>25/09/2021</td>
+                        <td>14:00</td>
+                        <td>Particular</td>
+                        <td>AUSENTE</td>
+                        <td>
+                            <button class="btn btn-primary shadow-sm" type="button" data-bs-toggle="modal"
+                            data-bs-target="#confirmModal">Ver mais</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Maria da Silva</td>
+                        <td>(+244) 921 664 281</td>
+                        <td>Maria Pereira</td>
+                        <td>Estética</td>
+                        <td>25/09/2021</td>
+                        <td>14:00</td>
+                        <td>Particular</td>
+                        <td>CANCELADO</td>
+                        <td>
+                            <button class="btn btn-primary shadow-sm" type="button" data-bs-toggle="modal"
+                            data-bs-target="#confirmModal">Ver mais</button>
+                        </td>
+                <tbody>
+            </table>
+            <div id="paginator"></div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $("#paginator").load("/prototype/components/paginator/paginator.html");
+    });
+</script>
