@@ -63,3 +63,6 @@
 
 ### Model
 ![Use Cases](/out/docs/model/model.png)
+
+### EndPoints
+![Use Cases](/out/docs/end_points/end_points.png)
